@@ -1,6 +1,7 @@
 /* https://colorhunt.co/palette/219f94c1deaef2f5c8e8e8a6 */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ html, body {
     background-color: #F2F5C8;
 }
 
-.container {
+.context {
     display: flex;
     flex-direction: column;
 }
@@ -52,7 +53,7 @@ html, body {
     height: 1.5vh;
 }
 
-#contents {
+.contents {
     display: flex;
     flex-direction: column;
     margin-top: 10vh;
@@ -74,13 +75,21 @@ html, body {
     align-items: center;
 }
 
+#foot-content-intro {
+    margin-top: 7vh;
+}
+
 #foot-content {
     display: flex;
     flex-direction: row;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .foot-png {
     max-height: 15vh;
     margin: 0px 3vh 0px 3vh;
+}
+
+#cont2 {
+    display: none;
 }
