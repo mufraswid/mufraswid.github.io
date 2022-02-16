@@ -1,3 +1,5 @@
+/* https://colorhunt.co/palette/219f94c1deaef2f5c8e8e8a6 */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 * {
   margin: 0;
@@ -9,7 +11,7 @@ html, body {
     height: 100%;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #fffee8;
+    background-color: #F2F5C8;
 }
 
 .container {
@@ -18,14 +20,13 @@ html, body {
 }
 
 #banner {
-    background-color: #ebd244;
+    background-color: #219F94;
     padding: 10px 0px 10px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 25vh;
-    margin-bottom: 1vh;
 }
 
 #profpic {
@@ -34,6 +35,50 @@ html, body {
     margin-right: 20px;
 }
 
+#wave {
+    max-height: 10vh;
+    margin-right: 20px;
+}
+
 #banner-name {
     text-align: left;
+    font-size: larger;
+}
+
+#banner-transition {
+    background: #aed5a7;
+    height: 1.5vh;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+}
+
+#contents-op {
+    text-align: justify;
+    width: 40vw;
+}
+
+.card {
+    margin: 0px 20vh 0px 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#f1-card {
+    align-items: center;
+}
+
+#foot-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+}
+
+.foot-png {
+    max-height: 15vh;
+    margin: 0px 3vh 0px 3vh;
 }
